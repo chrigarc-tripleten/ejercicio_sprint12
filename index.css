@@ -1,0 +1,19 @@
+.page {
+    min-height: 100vh;
+}
+
+.section {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid black;
+}
+
+.card__image {
+    width: 100%;
+    object-fit: cover;
+}
